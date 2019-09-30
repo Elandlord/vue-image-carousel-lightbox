@@ -1,1 +1,1 @@
-[![npm (scoped)]](https://img.shields.io/npmv/v/@elandlord/vue-image-carousel-lightbox.svg)](https://github.com/Elandlord/vue-image-carousel-lightbox.git)
+[![npm (scoped)](https://img.shields.io/npmv/v/@elandlord/vue-image-carousel-lightbox.svg)](https://github.com/Elandlord/vue-image-carousel-lightbox.git)
