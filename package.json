@@ -1,7 +1,7 @@
 {
-"name": "@elandlord/vue-image-carousel-lightbox",
-"version": "1.0.0",
-"description": "Combines an image carousel with a lightbox.. the best of both worlds!",
+  "name": "@elandlord/vue-image-carousel-lightbox",
+  "version": "1.0.0",
+  "description": "Combines an image carousel with a lightbox.. the best of both worlds!",
   "license": "MIT",
   "repository": "elandlord/vue-image-carousel-lightbox",
   "main": "index.js",
@@ -13,5 +13,51 @@
     "npm",
     "package",
     "elandlord"
-  ]
+  ],
+  "homepage": "https://github.com/Elandlord/vue-image-carousel-lightbox.git",
+  "author": "Eric Landheer < e.landheer@mentechmedia.nl >",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Elandlord/vue-image-carousel-lightbox.git"
+  },
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-jest": "^24.8.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "cross-env": "^5.2.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "flush-promises": "^1.0.2",
+    "jest": "^24.8.0",
+    "rollup": "^1.15.1",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-eslint": "^6.0.0",
+    "rollup-plugin-node-resolve": "^5.0.1",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-uglify": "^6.0.2",
+    "rollup-plugin-vue": "^5.0.0",
+    "stylus": "^0.54.5",
+    "uglify-es": "^3.3.9",
+    "vue": "^2.6.10",
+    "vue-jest": "^3.0.4",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "webpack-mix": "^2.0.2"
+  }
 }
