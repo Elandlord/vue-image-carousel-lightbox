@@ -1,4 +1,17 @@
 {
 "name": "@elandlord/vue-image-carousel-lightbox",
-"version": "1.0.0"
+"version": "1.0.0",
+"description": "Combines an image carousel with a lightbox.. the best of both worlds!",
+  "license": "MIT",
+  "repository": "elandlord/vue-image-carousel-lightbox",
+  "main": "index.js",
+  "keywords": [
+    "vue",
+    "image",
+    "carousel",
+    "lightbox",
+    "npm",
+    "package",
+    "elandlord"
+  ]
 }
