@@ -1,3 +1,3 @@
 import VueImageCarouselLightbox from './components/carousel.vue';
 
-export default VueImageCarouselLightbox;
+Vue.component('vue-image-carousel-lightbox', VueImageCarouselLightbox);

@@ -7,18 +7,38 @@
 </head>
 <body>
     <div id="app">
-        <carousel></carousel>
+        <vue-image-carousel-lightbox :items="images" :index="0"></vue-image-carousel-lightbox>
     </div>
 
     <script type="text/javascript">
         new Vue({
             el: '#app',
             data: function () {
-
+                return {
+                    images: [
+                        {
+                            title: '400x400',
+                            description: '400 x 400 White',
+                            href: 'https://dummyimage.com/400/ffffff/000000',
+                        },
+                        {
+                            title: '400x400',
+                            description: '400 x 400 White',
+                            href: 'https://dummyimage.com/400/ffffff/000000',
+                        },
+                        {
+                            title: '400x400',
+                            description: '400 x 400 Black',
+                            href: 'https://dummyimage.com/400/000000/ffffff',
+                        },
+                        {
+                            title: '400x400',
+                            description: '400 x 400 Black',
+                            href: 'https://dummyimage.com/400/000000/ffffff',
+                        },
+                    ],
+                };
             },
-            components: {
-                'carousel': VueImageCarouselLightbox
-            }
         });
     </script>
 </body>

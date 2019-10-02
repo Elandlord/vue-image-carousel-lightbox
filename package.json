@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Combines an image carousel with a lightbox.. the best of both worlds!",
   "license": "MIT",
-  "repository": "elandlord/vue-image-carousel-lightbox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Elandlord/vue-image-carousel-lightbox.git"
+  },
   "main": "index.js",
   "keywords": [
     "vue",
@@ -16,10 +19,6 @@
   ],
   "homepage": "https://github.com/Elandlord/vue-image-carousel-lightbox.git",
   "author": "Eric Landheer < e.landheer@mentechmedia.nl >",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Elandlord/vue-image-carousel-lightbox.git"
-  },
   "files": [
     "src",
     "dist/*.js"
