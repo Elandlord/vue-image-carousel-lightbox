@@ -5,8 +5,15 @@
 </template>
 <script>
 	export default {
+		options: {
+			type: Object,
+			default() {
+				return {};
+			},
+		},
+
 		mounted() {
-			console.log('test')
+			alert('test');
 		}
 	}
 </script>

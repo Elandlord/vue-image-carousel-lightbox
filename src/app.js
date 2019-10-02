@@ -1,11 +1,3 @@
-import Carousel from './carousel.vue'
+import VueImageCarouselLightbox from './components/carousel.vue';
 
-const plugin = {
-	version: VERSION,
-	install(Vue) {
-		Vue.component(Carousel.name, Carousel)
-	},
-}
-
-export { Carousel }
-export default plugin
+export default VueImageCarouselLightbox;
